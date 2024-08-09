@@ -1,0 +1,71 @@
+/* register.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    width: 350px; /* Increased width */
+    margin: 0 auto;
+    border: none;
+    padding: 20px;
+    border-radius: 15px; /* Increased border radius */
+    background-color: #f0f0f0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Increased box shadow */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left; /* Left-align labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 40px);
+    padding: 12px; /* Increased padding */
+    margin-bottom: 20px; /* Increased margin */
+    border: none;
+    border-radius: 8px; /* Increased border radius */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px; /* Increased font size */
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px; /* Increased padding */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+p {
+    color: #666;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
